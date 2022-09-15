@@ -503,6 +503,42 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@reactour/mask@*", "@reactour/mask@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@reactour/mask/-/mask-1.0.4.tgz#d5415a76e0f5a8436be964de82fa0579887c7dd5"
+  integrity sha512-znMRiDB5GjXlAUFOcmtFlmwy3w2w4xb10pSZofYdvNSl9VHinuAXqJURDIBfpKTB72vx1Tv6FiX5TPN9Wtedzw==
+  dependencies:
+    "@reactour/utils" "*"
+
+"@reactour/popover@*":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@reactour/popover/-/popover-1.0.5.tgz#a79091988f95e4434e9d2790f7c830b57cb7935b"
+  integrity sha512-d6BMcyXGj3RdSc2huiU6v/wG2XG1ad+lAFmjyFerlZNS1ccp/49HvLUnqxE0Td+86e7RPrdEzpZb5PKtBybPrA==
+  dependencies:
+    "@reactour/utils" "*"
+
+"@reactour/tour@^3.1.4":
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/@reactour/tour/-/tour-3.1.4.tgz#80f7545b02dcc81bbc78dbfce426d0d1cf79b36b"
+  integrity sha512-iUG84eBdoCp+0DS6+8YIbD6IRZMRAMi3iRwTeVxxur0CLxBc+q7ysfwyHV/tUpV84qRnuEs/mcqC09nGSzdDYw==
+  dependencies:
+    "@reactour/mask" "*"
+    "@reactour/popover" "*"
+    "@reactour/utils" "*"
+
+"@reactour/utils@*":
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/@reactour/utils/-/utils-0.4.7.tgz#569a43fa4e25f50ceb52272bff7696c14837945a"
+  integrity sha512-d+/Xhi2nKCc6OrDEFGg15iN8ZyWDTdOrwIKkndJXrnWiN6b+nqoS2Tb7hZvt79rqCyUsQxekUndPFPQyIW81EA==
+  dependencies:
+    "@rooks/use-mutation-observer" "^4.11.2"
+    resize-observer-polyfill "^1.5.1"
+
+"@rooks/use-mutation-observer@^4.11.2":
+  version "4.11.2"
+  resolved "https://registry.yarnpkg.com/@rooks/use-mutation-observer/-/use-mutation-observer-4.11.2.tgz#a0466c4338e0a4487ea19253c86bcd427c29f4af"
+  integrity sha512-vpsdrZdr6TkB1zZJcHx+fR1YC/pHs2BaqcuYiEGjBVbwY5xcC49+h0hAUtQKHth3oJqXfIX/Ng8S7s5HFHdM/A==
+
 "@rushstack/eslint-patch@^1.0.6":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.0.tgz#7f698254aadf921e48dda8c0a6b304026b8a9323"
@@ -568,6 +604,13 @@
     "@types/prop-types" "*"
     "@types/scheduler" "*"
     csstype "^3.0.2"
+
+"@types/reactour@^1.18.2":
+  version "1.18.2"
+  resolved "https://registry.yarnpkg.com/@types/reactour/-/reactour-1.18.2.tgz#7b17529be743c3abae61b51e7d435a25b7df3f97"
+  integrity sha512-WFZ+RjmzZG8QzhW0NI0FQ3GsFxcn2kLIEak5R1NAW6PWkIJRCano1nLv81iFxA4qCneXSD1dwSbE6iuWVwCafw==
+  dependencies:
+    "@types/react" "*"
 
 "@types/scheduler@*":
   version "0.16.2"
@@ -3553,6 +3596,11 @@ require-from-string@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
   integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
+
+resize-observer-polyfill@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==
 
 resolve-from@5.0.0, resolve-from@^5.0.0:
   version "5.0.0"
