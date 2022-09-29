@@ -9,7 +9,9 @@ const MyApp: React.FC<AppProps> = function ({ Component, pageProps }) {
   return (
     <TourProvider
       steps={steps}
-      styles={{ popover: props => ({ ...props, background: '#fff000' }) }}
+      styles={{
+        popover: props => ({ ...props, color: '#000', borderRadius: '8px' }),
+      }}
     >
       <Component {...pageProps} />
       <GlobalStyles />
